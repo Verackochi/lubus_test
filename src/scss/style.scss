@@ -1,0 +1,12 @@
+@import 'base/*.scss';
+@import 'global/*.scss';
+@import '**/_*.scss';
+@import '../components/**/*.scss';
+
+
+body {
+    // не смог убрать прокрутку
+    //overflow:hidden;
+    //overflow-y:hidden;
+}
+

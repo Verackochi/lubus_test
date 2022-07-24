@@ -1,0 +1,42 @@
+.quiz {
+    margin-top: 80px;
+}
+
+.quiz__title {
+    width: 826px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: $text1;
+}
+
+.quiz__block {
+    margin-top: 40px;
+    background: url('../img/bg_quiz.jpg');
+    padding: 95px 120px;
+}
+
+.answer {
+    margin: 0;
+    padding: 125px 118px;
+    margin-bottom: 20px;
+    width: 1200px;
+    background-color: #fff;
+    &__item {
+        display: block;
+    }
+}
+
+.quiz__block-indicator {
+    margin-top: 20px;
+}
+
+.controls-quiz {
+    &__next {
+
+    }
+
+    &__restart {
+        display: none;
+    }
+}

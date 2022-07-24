@@ -1,0 +1,191 @@
+.--text_r12 {
+    /* Text 12 - Regular */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    letter-spacing: 0.03em;
+}
+
+.--text_r16 {
+    /* Text 16- Regular */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.03em;
+}
+
+
+.--text-r20 {
+    /* Text 20 - Regular */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    /* identical to box height, or 34px */
+    letter-spacing: 0.03em;
+}
+
+.--text-b20 {
+    /* Text 20 - Bold */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    letter-spacing: 0.03em;
+}
+
+.--text_rl2 {
+    /* Text 25 - Regular Left */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 38px */
+    letter-spacing: 0.03em;
+}
+
+.--text_rc25 {
+    /* Text 25 - Regular Center */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 38px */
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.--H1_b50 {
+    /* H1 50 - Bold */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    /* identical to box height, or 60px */
+}
+
+.--H2_m40 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    /* identical to box height, or 48px */
+}
+
+.--Text_i25 {
+    /* Text Speach 25 - Italic */
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 170%;
+    /* identical to box height, or 43px */
+}
+
+.--Text_b16 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.03em;
+}
+
+
+.--Text-bc25 {
+    /* Text 25 - Bold Centre */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    letter-spacing: 0.02em;
+}
+
+.--Text_b12 {
+    /* Text 12 - Bold */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+}
+
+.--h1-m50 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 120%;
+    /* identical to box height, or 60px */
+}
+
+/*Vars color*/
+
+/*Backgraund 1 */
+$background1: #F5F5F5;
+/* Bright color 1 */
+$brightcolor1: #F6B100;
+/* Bright color 2 */
+$brightcolor2: #2764BF;
+/* Backgraund 2 */
+$background2: #F1F4FC;
+/* Text 1 */
+$text1: #0E2249;
+/* Bright color */
+$brightcolor: #C93533;
+/* Stroke */
+$stroke: #ADBED7;
+/* Text 2 */
+$text2: #A4A4A4;
+/* Text 3 */
+$text3: #7E838C;
+
+
+/*style list*/
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.--btn-style {
+    padding: 13px 32px;
+    color:#ffff;
+    background-color: $brightcolor;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        transition: ease-in 0.3s;
+        background-color: #dd5d5b;
+    }
+
+    &:active {
+        background-color: #aa302e;
+    }
+}
+
